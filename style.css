@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+body{
+    padding: 0;
+    margin: 0;
+   font-family: poppins;
+}
+.navbar .navbar-brand{
+    color: #fff;
+}
+.navbar .navbar-brand span{
+    color: #EB510F;
+    font-weight: 1000;
+    font-size: 34px;
+}
+
+@media (max-width: 560px){
+    .nav-item{
+        background-color: rgba(48, 47, 136, 0.8);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+        border-top: 0rem;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:active{
+        border-top: 0rem;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:focus{
+        border-top: 0rem;
+    }
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 10px;
+    
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    border-top: 0.2rem solid #EB510F;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:active{
+    border-top: 3px solid #EB510F;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:focus{
+    border-top: 3px solid #EB510F;
+}
+.navbar-nav{
+    text-align: center;
+}
+
+.bgimg{
+    background: linear-gradient(rgba(12, 17, 11, 0.7), rgba(12, 17, 11, 0.7)), url(images/picture3.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;}
+
+.bgimg h2{
+    color:#ffffff;
+    letter-spacing: 0.3em;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 250px;
+  }
+  .bgimg p{
+      color: #fff;
+      font-size: 20px;
+      padding-top: 18px;
+  }
+  .bgimg .search{
+      text-align: center;
+      justify-content: center;
+      padding-top: 18px;
+  }
+  .bgimg .search .btn{
+     background-color: #fff;
+     border: 1px solid #333333;
+     width: 150px;
+     font-weight: 500;
+     font-size: 14px;
+    
+  }
+  .bgimg .search .search2{
+    background-color:#EB510F;
+    border: 1px solid #333333;
+    color: #fff;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+
+ }
+ .about3{
+     margin-top: 20px;
+     text-align: left;
+   
+ }
+ .about1 {
+     width: 100%;
+     height: 50%;
+ }
+ .about2{
+    padding-left: 100px;
+   
+ }
+ .about2 h3{
+    color:#18225D;
+    padding-top: 25px;
+ }
+ .about2 h3:before{
+    color:#EB510F ;
+    content: '|' ;
+    width: 7px;
+    padding-right: 10px;
+   }
+   .about2 h5{
+    color:#18225D;
+    padding-top: 20px;
+ }
+ .about2 p{
+    color:#18225D;
+    padding-top: 20px;
+ }
+ .about2 h6{
+    color:#18225D;
+    padding-top: 20px;
+ }
+ 
+ .about2 h6 span{
+     color: #EB510F;
+ }
+ .tour-section{
+     background-color: #E5E5E5;
+    
+ }
+ .tour{
+     padding-top: 25px;
+     
+ }
+ .tour1 h3{
+    color:#18225D;
+    
+ }
+ .tour1 h5{
+    color:#18225D;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+ }
+ .tour1 h3:before{
+    color:#EB510F ;
+    content: '|' ;
+    width: 7px;
+    padding-right: 10px;
+   }
+   .tour1 button{
+      background-color: #EB510F;
+      color: #fff;
+      height: 38px;
+      margin-top: 15px;
+   }
+   .tour1{
+       padding-left: 100px;
+   }
+  .tour2{
+      padding-left: 100px;
+  }
+  .tour2 p{
+      color: #18225D;
+  }
+  .tour-picture{
+      margin-top: 30px;
+  }.tour-picture{
+      width: 100%;
+      height: 50%;
+  }
+  .tour-picture3{
+      height: 60%;
+      width:130%;
+  }
+  .rate{
+      margin-top: 2rem;
+      color: #18225D;
+  }
+  .rate2{
+      margin-top: 1rem;
+      color: #18225D;
+  }
+  .rate2 .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .rate2 .fa {
+    font-size: 25px;
+  }
+  
+  .rate2 .checked {
+    color: orange;
+  }
+  .ratings{
+      margin-top: 20px;
+  }
+  .customer{
+      text-align: left;
+  }
+  .customer h4{
+      color: #EB510F;
+      letter-spacing: 0.2em;
+  }
+  .customer p{
+      color: #18225D;
+     
+  }
+  .customer2{
+    text-align: center;
+}
+.customer2 h4{
+    color: #EB510F;
+    letter-spacing: 0.2em;
+}
+.customer2 p{
+    color: #18225D;
+   margin-left: 60px;}
+.customer3{
+    text-align: right;
+   
+}
+.customer3 h4{
+    color: #EB510F;
+    letter-spacing: 0.2em;
+    margin-right: 50px;
+}
+.customer3 p{
+    color: #18225D;
+  margin-right: 10px;
+}
+.services{
+    background-color: #F5A684;
+    height: 350px;
+}
+.services h3{
+    color: #18225D;
+    text-align: center;
+    padding-top: 25px;
+}
+.services h3:before{
+    color:#EB510F ;
+    content: '|' ;
+    width: 7px;
+    padding-right: 10px;
+   }
+   .services1 {
+    height: 100px;
+    width: 100%;
+   }
+   .services1 img{
+       width: 5%;
+       height: auto;
+       justify-content: center;
+   }
+   .services2 img{
+    width: 5%;
+    height: auto;
+    justify-content: center;
+}
+.services3{
+    padding-left: 100px;
+}
+@media (max-width: 560px){
+    .services4{
+        display:none;
+    }
+    .services2 .c1{
+        margin-left: 10rem;
+    }
+    .services{
+        height: auto;
+    }
+    .services2 .c2{
+        margin-left: 10rem;
+    }
+    .services2 .c3{
+        margin-bottom:25px ;
+        margin-left: 10rem;
+    }
+}
+.card{
+    width: 8rem; 
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(121, 113, 113, 0.5); 
+    margin-top: 20px;
+    
+  }
+ .card img{
+     padding-top: 10px;
+    width: 25%;
+    height: auto;
+    justify-content: center;
+   margin-left: 50px;
+  }
+.card p{
+    font-size: 11px;
+    color: #18225D;
+    font-weight: 600;
+}
+.c1{
+    margin-left: -130px;
+}
+.c2{
+    margin-left: 30px;
+}
+.c3{
+    margin-left: 190px;
+}
+.gallery h3{
+    margin-top: 20px;
+    color: #18225D;
+    text-align: center;
+}
+.gallery p{
+    color: #18225D;
+    font-weight: 500;
+    text-align:center ;
+    margin-top: 15px;
+}
+.gallery h3:before{
+    color:#EB510F ;
+    content: '|' ;
+    width: 7px;
+    padding-right: 10px;
+   }
+   .gallery2{
+       height: auto;
+   }
+  .gallery3 img {
+    vertical-align: middle;
+    height: auto;
+  }
+.gallery2 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    margin-top: 20px;
+    padding-right: 30px;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .gallery3{
+      margin-left: 90px;
+  }
+  .gallery button{
+    background-color: #EB510F;
+    color: #fff;
+    height: 38px;
+    margin-top: 15px;
+    float: right;
+ }
+ .blog{
+     background-color: #E5E5E5;
+     margin-top: 80px;
+     height: 400px;
+ }
+ @media (max-width: 560px){
+     .blog{height: 1000px;
+     }
+ }
+ .blog2 h3{
+     padding-top: 30px;
+     color: #18225D;
+     text-align: center;
+ }
+ .blog2 h3:before{
+    color:#EB510F ;
+    content: '|' ;
+    width: 7px;
+    padding-right: 10px;
+   }
+   .blog3{
+       margin-top: 25px;
+       width: 100%;
+   }
+  
+.sec1 #dwn{
+    margin-top: 12rem;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front img{
+      margin: 5px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .clients{
+    margin-top: 30px;
+    height: 300px;
+  }
+
+  .clients h3{
+    padding-top: 10px;
+    color: #18225D;
+    text-align: center;
+}
+.clients h3:before{
+   color:#EB510F ;
+   content: '|' ;
+   width: 7px;
+   padding-right: 10px;
+  }
+  .testimonials{
+    background-color: #ffffff;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 32px 0 rgba(0, 0, 0, 0.19);
+   margin-top: 20px;
+    
+  }
+  .testimonials p{
+    color: #18225D;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .testimonials h4{
+      color: #18225D;
+      padding-top: 60px;
+  }
+  .testimonials .client-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+  }
+  .testimonials .client-img img{
+      width: 100%;
+      height: 100%;
+      padding:10px
+  }
+  .clients img{
+      width: 50px;
+      height: auto;
+      border-radius: 50%;
+   
+  }
+  .newsletter1{
+    background: linear-gradient(rgba(15, 19, 14, 0.9), rgba(15, 19, 14, 0.9)), url(images/olumo.jpg);
+    height: 300px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;}
+.newsletter{
+    color: #ffffff;
+    padding-top: 5rem;
+    text-align: center;
+}
+.newsletter2{
+    justify-content: center;
+    margin-left: 5rem;
+}
+@media (max-width: 560px){
+    #newsletter2{
+        margin-left: 10rem;
+       
+    }
+    .input-group{
+        width:80%;
+    }
+}
+.newsletter2 .form-group{
+    border: #EB510F;
+}
+.newsletter2 .btn{
+    background: #EB510F;
+    color: #ffffff;
+   
+}
+
+  .footer-div{
+    padding-top: 30px;
+    
+    background-color: #333333;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-div .contact1 {
+    margin-left:90px;
+  }
+  @media (max-width: 560px){
+    .foot{
+      margin-left: 70px;
+    }
+  }
+  .footer-div .contact1 {
+    margin-left:70px;
+  }
+  .links a {
+  
+    text-decoration: none;
+    transition: 0.5s ease;
+    color: #f2f2f2;
+    line-height: 10px;
+  
+  }
+  .footer-bottom-text{
+    text-align: center;
+   
+    margin-top: 1px;
+    color: #EB510F;
+  }
+ #safar span{
+    color: #EB510F;
+    font-weight: 1000;
+    font-size: 34px;
+}
+#call span{
+    color: #EB510F;
+}
+  
